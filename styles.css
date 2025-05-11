@@ -66,4 +66,33 @@
 
 .card-powers {
     font-weight: bold;
+} /* hah funny number */
+
+.card-stats {
+    margin-top: 10px;
+}
+
+.stat-block {
+    margin-bottom: 8px;
+}
+
+.stat-block span {
+    display: inline-block;
+    width: 60px;
+    font-weight: bold;
+}
+
+.stat-bar {
+    width: 100%;
+    background: #eee;
+    border-radius: 5px;
+    overflow: hidden;
+    height: 10px;
+    display: inline-block;
+    vertical-align: middle;
+    width: 150px;
+}
+
+.fill {
+    height: 100%;
 }

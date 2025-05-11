@@ -10,6 +10,7 @@
     <div class="search-container">
         <input type="text" id="search-bar" placeholder="Search for a cherry..." onkeyup="searchCards()">
     </div>
+
     <div class="cards-container">
         <div class="card" data-name="Cherry">
             <img src="cherry_image.jpg" alt="Cherry" class="card-img">
@@ -17,21 +18,55 @@
                 <h1 class="card-name">Cherry</h1>
                 <p class="card-hp">HP: 80</p>
                 <p class="card-evolution">Evolution: Basic</p>
+                <p class="card-rarity common">Rarity: Common</p>
                 <p class="card-info-text">Info: The basic cherry</p>
-                <p class="card-powers">Powers: </p>
+                <p class="card-powers">Powers: 🍒</p>
+
+                <div class="card-stats">
+                    <div class="stat-block">
+                        <span>Power</span>
+                        <div class="stat-bar">
+                            <div class="fill" style="width: 30%; background: red;"></div>
+                        </div>
+                    </div>
+                    <div class="stat-block">
+                        <span>Speed</span>
+                        <div class="stat-bar">
+                            <div class="fill" style="width: 40%; background: orange;"></div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
+
         <div class="card" data-name="Cherry Coder">
             <img src="cherry_image.jpg" alt="Cherry Coder" class="card-img">
             <div class="card-info">
                 <h1 class="card-name">Cherry Coder</h1>
                 <p class="card-hp">HP: 110</p>
                 <p class="card-evolution">Evolution: Basic</p>
+                <p class="card-rarity legendary">Rarity: Legendary</p>
                 <p class="card-info-text">Info: The basic coder cherry</p>
-                <p class="card-powers">Powers: Coding</p>
+                <p class="card-powers">Powers: Coding 💻</p>
+
+                <div class="card-stats">
+                    <div class="stat-block">
+                        <span>Power</span>
+                        <div class="stat-bar">
+                            <div class="fill" style="width: 95%; background: red;"></div>
+                        </div>
+                    </div>
+                    <div class="stat-block">
+                        <span>Speed</span>
+                        <div class="stat-bar">
+                            <div class="fill" style="width: 80%; background: orange;"></div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
+
     <script src="script.js"></script>
 </body>
 </html>
