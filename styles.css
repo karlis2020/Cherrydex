@@ -1,14 +1,26 @@
-
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f9;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
+/* Styling for the search bar */
+.search-container {
+    text-align: center;
+    margin-bottom: 20px;
 }
 
+#search-bar {
+    padding: 10px;
+    width: 80%;
+    max-width: 300px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 1em;
+}
+
+/* Container for the cards */
+.cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* Styling for each card */
 .card {
     background-color: white;
     width: 250px;
@@ -19,16 +31,20 @@ body {
     display: flex;
     flex-direction: column;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin: 20px;
+    padding: 15px;
+    display: none; /* Cards are hidden by default */
 }
 
 .card-img {
     width: 100%;
     height: 150px;
     object-fit: cover;
+    margin-bottom: 10px;
 }
 
 .card-info {
-    padding: 15px;
+    padding: 10px;
     text-align: center;
 }
 
@@ -46,4 +62,8 @@ body {
 
 .card-info-text {
     font-style: italic;
+}
+
+.card-powers {
+    font-weight: bold;
 }
